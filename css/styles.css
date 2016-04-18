@@ -1,0 +1,12 @@
+body {
+  background-color: #663300;
+}
+h1 {
+  background-color: #e6e600;
+  color: #663300;
+  font-size: 4em;
+  line-height: 4em;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  border-radius: 25px;
+}
