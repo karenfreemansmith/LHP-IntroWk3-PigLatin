@@ -1,21 +1,28 @@
 # :pig: [Pig Latin Translator](http://karenfreemansmith.github.io/piglatin)
 ![project screenshot](/img/screenshot.jpg)
 
-__Version 1: April 18, 2016__
+__Version 1: April 21, 2016__
 ## by [Karen Freeman-Smith](http://karenfreemansmith.github.io)
 
 ### Description
 __*A webpage that translates your words into pig latin.*__
 
-  *  For words that start with a vowel, add "ay" to the end.
-  *  For words that start with one or more consonants, move all of the first consecutive consonants to the end and add "ay". (If the first consonants include "qu", move the "u" along with the "q". Don't forget about words like "squeal" where the "qu" doesn't come first!)
-  *  For words that start with "y", treat the "y" as a consonant.
+Removes first letter of each word and adds it to the end, along with "ay".
+(Passes test for "Hey World" | "eyHay orldWay")
 
-Remember to break this down into small behavior examples and code one behavior at a time. When you get to consonants, don't try to solve it all at once. Instead, start with an example of a word that only has one consonant; then a word with two consonants; then a word with three; and then tackle "qu" and "y".
+Still needed:
+  * For words that start with a vowel, add "ay" to the end.
+    (Test: "oranges and apples" | orangesay anday applesay)
+  * Words that start with more than one consonant: move all consonants and add "ay". For words that start with "y", treat the "y" as a consonant.
+    (Test: "starry night" | "arrystay ightnay")
+  *  If the first consonants include "qu", move the "u" along with the "q".
+    (Test: "even quiet pigs squeal" | "evenay itequay igspay ealsquay")
+  *  Display results as sentence case, make initial caps small if moved to end, capitalize first letters
+    (Test: "Hey World" | "Eyhay orldway")
+  * remove/replace punctuation as needed.
+    (Test: "Hey, World!" | "Eyhay, orldway!")
 
-The .slice() method for strings may come in handy.
-
-Once you have it working for one word, get it working for sentences.
+*(The .slice() method for strings may come in handy.)*
 
 #### Uses:
 * [Fresh Start](http://karenfreemansmith.github.io/freshstart)

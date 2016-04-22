@@ -10,3 +10,12 @@ h1 {
   font-family: 'Permanent Marker', cursive;
   border-radius: 25px;
 }
+
+.translation {
+  background-color: #e6e600;
+  color: #663300;
+  width: 80%;
+  margin: auto;
+  padding: 50px;
+  text-align: center;
+}
