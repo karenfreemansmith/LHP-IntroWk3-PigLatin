@@ -1,7 +1,7 @@
 # :pig: [Pig Latin Translator](http://karenfreemansmith.github.io/piglatin)
 ![project screenshot](/img/screenshot.jpg)
 
-__Version 1: April 21, 2016__
+__Version 1: April 26, 2016__
 ## by [Karen Freeman-Smith](http://karenfreemansmith.github.io)
 
 ### Description
