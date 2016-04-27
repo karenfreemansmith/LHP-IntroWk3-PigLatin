@@ -1,18 +1,25 @@
 body {
   background-color: #663300;
+  background-image: url("../img/top.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 h1 {
-  background-color: #e6e600;
   color: #663300;
   font-size: 4em;
-  line-height: 4em;
+  height: 200px;
+  padding-top:120px;
   text-align: center;
   font-family: 'Permanent Marker', cursive;
-  border-radius: 25px;
+  border-radius: 5px;
+  background-image: url("../img/bottom.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .translation {
-  background-color: #e6e600;
   color: #663300;
   width: 80%;
   margin: auto;

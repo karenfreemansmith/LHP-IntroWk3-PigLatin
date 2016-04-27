@@ -33,7 +33,7 @@ function anslateTray (phrase) {
     newWords.push(newWord.join(""));
   });
   phrase = newWords.join(" ");
-  return phrase;
+  return phrase.toUpperCase();
 }
 
 //user interface logic - getting from and sending to webpage
